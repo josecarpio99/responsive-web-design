@@ -318,7 +318,7 @@ h3{
    	height: 10vh;
    	transform: skewY(-10deg);
    	transition: all 0.45s;
-   	animation-timing-function: lineal;
+   	animation-timing-function: linear;
    	animation-duration: 2s;
    }
 
@@ -331,7 +331,7 @@ h3{
    	height: 100%;
    	z-index: 10;
    	overflow: auto;
-   	/*display: none;*/
+   	display: none;
    }
 
    #details-container .nav-bar{
@@ -341,7 +341,7 @@ h3{
    }
 
    .item-hide{
-   	/*display: none;*/
+   	display: none;
    }
 
    #details-container .items{
@@ -353,7 +353,7 @@ h3{
    	width: 100%;
    }
 
-   #details-container .items .item .title{
+   #details-container .items .item{
    	text-align: center;
    }
 
